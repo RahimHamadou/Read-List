@@ -1,0 +1,75 @@
+body {
+	background-image: url(./assets/livres.jpeg);
+	background-position: center;
+	background-size: cover;
+}
+
+.success,
+.error {
+	text-align: center;
+	padding: 5px;
+	margin: 5px 0 15px 0;
+}
+.success {
+	background-color: rgba(0, 128, 0, 0.272);
+}
+.error {
+	background-color: rgba(212, 6, 6, 0.478);
+}
+
+h1 {
+	color: white;
+	padding: 5px;
+	text-align: center;
+	background-color: rgba(108, 72, 54, 0.868);
+	border-radius: 20px;
+	border-width: 2px;
+	border-style: outset;
+	border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+	border-image: initial;
+}
+
+label {
+	display: block;
+	text-align: center;
+	margin: 20px auto 0 auto;
+	padding-bottom: 0;
+}
+
+input {
+	display: block;
+	padding: 5px 20px;
+	width: 20%;
+	min-width: 250px;
+	margin: 0 auto;
+}
+
+.inputs {
+	margin: 40px;
+}
+button {
+	background-color: rgba(108, 72, 54, 0.868);
+	color: white;
+	padding: 10px 30px;
+	font-size: 18px;
+	border-radius: 20px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+table {
+	width: 90%;
+	margin: auto;
+}
+th {
+	width: 33%;
+}
+td {
+	text-align: center;
+}
+
+.delete {
+	background-color: rgb(136, 77, 77);
+	border-radius: 20px;
+}
