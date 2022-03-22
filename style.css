@@ -29,6 +29,10 @@ body {
 	flex-direction: column;
 	width: 80%;
 }
+
+.headTitle {
+	padding: 20px;
+}
 h1 {
 	color: white;
 	padding: 5px;
