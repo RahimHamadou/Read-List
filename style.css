@@ -1,7 +1,16 @@
 body {
-	background-image: url(./assets/livres.jpeg);
+	background: #dc2424; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #4a569d, #dc2424); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to top,
+		#4a569d,
+		#dc2424
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	height: 100vh;
+	/* background-image: url(./assets/livres.jpeg);
 	background-position: center;
-	background-size: cover;
+	background-size: cover; */
 }
 
 .success,
@@ -37,7 +46,7 @@ h1 {
 	color: white;
 	padding: 5px;
 	text-align: center;
-	background-color: rgba(108, 72, 54, 0.868);
+	background-color: #1b3359;
 	border-radius: 20px;
 	border-width: 2px;
 	border-style: outset;
@@ -66,7 +75,7 @@ input {
 	color: #fff;
 }
 button {
-	background-color: rgba(108, 72, 54, 0.868);
+	background-color: #1b3359;
 	color: white;
 	padding: 10px 30px;
 	font-size: 18px;
